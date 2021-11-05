@@ -17,7 +17,6 @@ basic.forever(function () {
 basic.forever(function () {
     basic.showString("" + (nombre_de_personne))
     if (nombre_de_personne == 10) {
-        basic.showString("attention!!!")
         basic.showLeds(`
             # . . . #
             . # . # .
